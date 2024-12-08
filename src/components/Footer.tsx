@@ -32,12 +32,6 @@ export default function Footer() {
                             Store
                         </Link>
                         <Link
-                            href="/about"
-                            className="text-sm font-quicksand hover:text-white transition"
-                        >
-                            About
-                        </Link>
-                        <Link
                             href="/contact"
                             className="text-sm font-quicksand hover:text-white transition"
                         >

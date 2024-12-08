@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "hero-bg": "url('./public/images/hero-bg)",
+      },
       fontFamily: {
         cinzel: ["var(--font-cinzel)", "serif"], // For headings
         quicksand: ["var(--font-quicksand)", "sans-serif"], // For body text
