@@ -1,4 +1,3 @@
-import FadeInSection from "@/components/FadeInSection";
 import Image from "next/image";
 import Link from "next/link";
 
