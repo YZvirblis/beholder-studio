@@ -14,7 +14,7 @@ export default function Header() {
                 {/* Logo */ }
                 <Link href="/" className="text-2xl font-cinzel tracking-wide flex flex-row align-middle text-center">
                     <Image src={ "/images/logo.png" } alt="logo" width={ 40 } height={ 40 }></Image>
-                    Fable Forge
+                    EverQuill
                 </Link>
 
                 {/* Desktop Navigation */ }
@@ -26,17 +26,17 @@ export default function Header() {
                         Home
                     </Link>
                     <Link
-                        href="/store"
+                        href="/market"
                         className="text-lg font-quicksand hover:text-white transition"
                     >
-                        Store
+                        Market
                     </Link>
-                    <Link
+                    {/* <Link
                         href="/contact"
                         className="text-lg font-quicksand hover:text-white transition"
                     >
                         Contact
-                    </Link>
+                    </Link> */}
                 </nav>
 
                 {/* Mobile Menu Button */ }
@@ -67,11 +67,11 @@ export default function Header() {
                         </li>
                         <li>
                             <Link
-                                href="/store"
+                                href="/market"
                                 className="text-lg font-quicksand hover:text-white transition"
                                 onClick={ () => setIsMenuOpen(false) }
                             >
-                                Store
+                                Market
                             </Link>
                         </li>
                         <li>
@@ -84,13 +84,13 @@ export default function Header() {
                             </Link>
                         </li>
                         <li>
-                            <Link
+                            {/* <Link
                                 href="/contact"
                                 className="text-lg font-quicksand hover:text-white transition"
                                 onClick={ () => setIsMenuOpen(false) }
                             >
                                 Contact
-                            </Link>
+                            </Link> */}
                         </li>
                     </ul>
                 </nav>

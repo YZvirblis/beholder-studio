@@ -10,7 +10,7 @@ export default function CommunitySection() {
                         <h3 className="text-2xl font-cinzel mb-4">Join Our Community</h3>
                         <p className="text-lg font-quicksand mb-6">
                             Be a part of the adventure! Connect with us on Discord, support our work,
-                            and help shape the future of Fable Forge.
+                            and help shape the future of EverQuill.
                         </p>
                         <div className="flex justify-center space-x-6 text-3xl">
                             <a

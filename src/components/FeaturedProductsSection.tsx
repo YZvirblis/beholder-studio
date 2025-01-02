@@ -69,7 +69,7 @@ export default function FeaturedProductsSection() {
                     )) }
                 </div>
                 <div className="flex flex-col md:flex-row justify-center align-middle p-16 space-y-4 md:space-y-0 md:space-x-6 w-full">
-                    <Link href={ "/store" } className="text-2xl font-quicksand hover:text-white transition">
+                    <Link href={ "/market" } className="text-2xl font-quicksand hover:text-white transition">
                         <button className="bg-sapphire text-gold py-3 px-6 rounded hover:bg-gold hover:text-sapphire transition font-quicksand border-2 border-gold">
                             View all
                         </button>

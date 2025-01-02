@@ -25,18 +25,18 @@ export default function HeroSection() {
             <div className="relative z-10 text-left max-w-3xl px-6 p-16 ml-24">
                 {/* Logo/Title */ }
                 <h1 className="text-5xl md:text-6xl font-cinzel font-bold mb-4">
-                    Fable Forge
+                    EverQuill
                 </h1>
 
                 {/* Tagline */ }
                 <p className="text-lg md:text-xl font-quicksand mb-8">
-                    Forge Your World, Live Your Story.
+                    The Pen of Creation, The Forge of Legends.
                 </p>
 
                 {/* Call-to-Action Buttons */ }
                 <div className="flex flex-col md:flex-row justify-start space-y-4 md:space-y-0 md:space-x-6">
                     <Link
-                        href="/store"
+                        href="/market"
                         className="text-lg font-quicksand hover:text-white transition"
                     >
                         <button className="bg-gold text-sapphire py-3 px-6 rounded hover:bg-white hover:text-gold transition font-quicksand">

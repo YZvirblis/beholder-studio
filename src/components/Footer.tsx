@@ -10,10 +10,10 @@ export default function Footer() {
                     {/* Logo and Tagline */ }
                     <div className="text-center md:text-left mb-4 md:mb-0">
                         <h2 className="text-2xl font-cinzel tracking-wide">
-                            Fable Forge
+                            EverQuill
                         </h2>
                         <p className="text-sm font-quicksand mt-2">
-                            Forge Your World, Live Your Story.
+                            The Pen of Creation, The Forge of Legends.
                         </p>
                     </div>
 
@@ -26,17 +26,17 @@ export default function Footer() {
                             Home
                         </Link>
                         <Link
-                            href="/store"
+                            href="/market"
                             className="text-sm font-quicksand hover:text-white transition"
                         >
-                            Store
+                            Market
                         </Link>
-                        <Link
+                        {/* <Link
                             href="/contact"
                             className="text-sm font-quicksand hover:text-white transition"
                         >
                             Contact
-                        </Link>
+                        </Link> */}
                     </nav>
                 </div>
 
@@ -45,7 +45,7 @@ export default function Footer() {
                     {/* Social Media Links */ }
                     <div className="flex space-x-4">
                         <a
-                            href="https://facebook.com"
+                            href="https://www.facebook.com/profile.php?id=61571600304827"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="hover:text-white transition"
@@ -53,7 +53,7 @@ export default function Footer() {
                             <FaFacebookF />
                         </a>
                         <a
-                            href="https://twitter.com"
+                            href="https://x.com/EverQuillGames"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="hover:text-white transition"
@@ -61,7 +61,7 @@ export default function Footer() {
                             <FaTwitter />
                         </a>
                         <a
-                            href="https://instagram.com"
+                            href="https://www.instagram.com/everquill.games/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="hover:text-white transition"
@@ -72,7 +72,7 @@ export default function Footer() {
 
                     {/* Copyright */ }
                     <p className="text-sm font-quicksand mt-4 md:mt-0">
-                        &copy; { new Date().getFullYear() } Fable Forge. All rights
+                        &copy; { new Date().getFullYear() } EverQuill. All rights
                         reserved.
                     </p>
                 </div>

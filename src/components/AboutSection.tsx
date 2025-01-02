@@ -8,20 +8,20 @@ export default function AboutSection() {
             <div className="container mx-auto px-6">
                 {/* Section Title */ }
                 <h2 className="text-4xl font-cinzel text-center mb-12 underline">
-                    About Fable Forge
+                    About EverQuill
                 </h2>
 
                 {/* General About Section */ }
                 <div className="flex flex-col lg:flex-row justify-between items-center gap-12  p-12 rounded-lg  mb-8">
-                    {/* About Fable Forge */ }
+                    {/* About EverQuill */ }
                     <div className=" text-lg font-quicksand  p-8 rounded-lg text-gold w-full">
                         <p className="mb-4">
-                            At <span className="font-semibold">Fable Forge</span>, we believe in the power of stories to connect, inspire, and transform.
+                            At <span className="font-semibold">EverQuill</span>, we believe in the power of stories to connect, inspire, and transform.
                             Our platform is dedicated to creating a vibrant ecosystem for tabletop RPG enthusiasts,
                             offering tools, resources, and modules to make every adventure unforgettable.
                         </p>
                         <p>
-                            Whether you’re a solo adventurer or part of a group, Fable Forge is here to empower you with
+                            Whether you’re a solo adventurer or part of a group, EverQuill is here to empower you with
                             everything you need to craft worlds, create characters, and embark on thrilling quests.
                             With a focus on accessibility and creativity, our mission is to remove barriers and ensure
                             that everyone can play, dream, and tell their own stories.
@@ -40,7 +40,7 @@ export default function AboutSection() {
                     {/* Future Features */ }
                     {/* <div className="max-w-lg text-lg font-quicksand  p-8 rounded-lg text-gold">
                         <p className="mb-4">
-                            Fable Forge is just beginning. Here’s what’s on the horizon:
+                            EverQuill is just beginning. Here’s what’s on the horizon:
                         </p>
                         <ul className="list-disc list-inside text-left space-y-2">
                             <li>Interactive solo adventures with dynamic storytelling.</li>
@@ -115,10 +115,10 @@ export default function AboutSection() {
                         </p>
 
                         <p>
-                            That’s why I created <span className="font-semibold">Fable Forge</span>—to bring D&D
+                            That’s why I created <span className="font-semibold">EverQuill</span>—to bring D&D
                             and TTRPGs to everyone, no matter their circumstances. This is more than just a platform;
                             it’s an <span className="font-semibold">ecosystem</span> for creators, players, and dreamers.
-                            Whether you’re a solo adventurer or part of a group, Fable Forge offers resources, modules,
+                            Whether you’re a solo adventurer or part of a group, EverQuill offers resources, modules,
                             and tools designed to include everyone. My mission is to remove the barriers to playing and
                             creating, empowering players of all levels to immerse themselves in worlds of their own making.
                         </p>
@@ -135,7 +135,7 @@ export default function AboutSection() {
 
                 {/* Centered Logo */ }
                 <div className="flex justify-center my-12">
-                    <Image src="/images/logo.png" alt="Fable Forge Logo" width={ 150 } height={ 150 } />
+                    <Image src="/images/logo.png" alt="EverQuill Logo" width={ 150 } height={ 150 } />
                 </div>
 
                 <CommunitySection />
