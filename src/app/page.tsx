@@ -1,4 +1,4 @@
-import FeaturedProductsSection from "@/components/FeaturedProductsSection";
+// import FeaturedProductsSection from "@/components/FeaturedProductsSection";
 import HeroSection from "../components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 
@@ -7,10 +7,11 @@ export default function HomePage() {
   return (
     <main>
       <HeroSection />
-
-      <FeaturedProductsSection />
-
+      {/* <FadeInSection>
+        <FeaturedProductsSection />
+      </FadeInSection> */}
       <AboutSection />
+
     </main>
   );
 }
