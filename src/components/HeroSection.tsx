@@ -25,12 +25,12 @@ export default function HeroSection() {
             <div className="relative z-10 text-left max-w-3xl px-6 p-16 ml-24">
                 {/* Logo/Title */ }
                 <h1 className="text-5xl md:text-6xl font-cinzel font-bold mb-4">
-                    Beholder Studio
+                    Fable Forge
                 </h1>
 
                 {/* Tagline */ }
                 <p className="text-lg md:text-xl font-quicksand mb-8">
-                    Your Story, Your Journey, Your Beholder.
+                    Forge Your World, Live Your Story.
                 </p>
 
                 {/* Call-to-Action Buttons */ }

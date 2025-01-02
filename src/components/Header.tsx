@@ -14,7 +14,7 @@ export default function Header() {
                 {/* Logo */ }
                 <Link href="/" className="text-2xl font-cinzel tracking-wide flex flex-row align-middle text-center">
                     <Image src={ "/images/logo.png" } alt="logo" width={ 40 } height={ 40 }></Image>
-                    Beholder Studio
+                    Fable Forge
                 </Link>
 
                 {/* Desktop Navigation */ }

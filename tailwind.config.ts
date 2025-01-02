@@ -9,15 +9,23 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-bg": "url('./public/images/hero-bg)",
+        "hero-bg": "url('./public/images/hero-bg')",
       },
       fontFamily: {
         cinzel: ["var(--font-cinzel)", "serif"], // For headings
         quicksand: ["var(--font-quicksand)", "sans-serif"], // For body text
       },
       colors: {
-        sapphire: "#1A2B4C",
-        gold: "#D4A017",
+        sapphire: {
+          DEFAULT: "#1A2B4C", // Base sapphire color
+          light: "#2A3C5E", // Lighter shade
+          dark: "#0E1C36", // Darker shade
+        },
+        gold: {
+          DEFAULT: "#D4A017", // Base gold color
+          light: "#E0B544", // Lighter shade
+          dark: "#B58310", // Darker shade
+        },
         violet: "#6E3A8D",
         gray: "#B0A59F",
         emerald: "#167A68",

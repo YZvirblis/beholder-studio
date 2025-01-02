@@ -10,10 +10,10 @@ export default function Footer() {
                     {/* Logo and Tagline */ }
                     <div className="text-center md:text-left mb-4 md:mb-0">
                         <h2 className="text-2xl font-cinzel tracking-wide">
-                            Beholder Studio
+                            Fable Forge
                         </h2>
                         <p className="text-sm font-quicksand mt-2">
-                            Your Story, Your Journey, Your Beholder.
+                            Forge Your World, Live Your Story.
                         </p>
                     </div>
 
@@ -72,7 +72,7 @@ export default function Footer() {
 
                     {/* Copyright */ }
                     <p className="text-sm font-quicksand mt-4 md:mt-0">
-                        &copy; { new Date().getFullYear() } Beholder Studio. All rights
+                        &copy; { new Date().getFullYear() } Fable Forge. All rights
                         reserved.
                     </p>
                 </div>

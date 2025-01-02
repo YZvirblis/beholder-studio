@@ -10,14 +10,14 @@ export default function CommunitySection() {
                         <h3 className="text-2xl font-cinzel mb-4">Join Our Community</h3>
                         <p className="text-lg font-quicksand mb-6">
                             Be a part of the adventure! Connect with us on Discord, support our work,
-                            and help shape the future of Beholder Studio.
+                            and help shape the future of Fable Forge.
                         </p>
                         <div className="flex justify-center space-x-6 text-3xl">
                             <a
                                 href="https://discord.com/invite/your-server"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="hover:text-sapphire hover:bg-white rounded-full p-3 shadow-xl bg-sapphire transition"
+                                className="hover:text-sapphire hover:bg-gradient-to-br from-yellow-200 to-gold rounded-full p-3 shadow-xl bg-sapphire transition"
                             >
                                 <FaDiscord />
                             </a>
@@ -25,7 +25,7 @@ export default function CommunitySection() {
                                 href="https://www.buymeacoffee.com/yourprofile"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="hover:text-sapphire hover:bg-white rounded-full p-3 shadow-xl bg-sapphire transition"
+                                className="hover:text-sapphire hover:bg-gradient-to-br from-yellow-200 to-gold rounded-full p-3 shadow-xl bg-sapphire transition"
                             >
                                 <FaCoffee />
                             </a>
@@ -33,7 +33,7 @@ export default function CommunitySection() {
                                 href="https://www.patreon.com/yourprofile"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="hover:text-sapphire hover:bg-white rounded-full p-3 shadow-xl bg-sapphire transition"
+                                className="hover:text-sapphire hover:bg-gradient-to-br from-yellow-200 to-gold rounded-full p-3 shadow-xl bg-sapphire transition"
                             >
                                 <FaPatreon />
                             </a>
@@ -55,7 +55,7 @@ export default function CommunitySection() {
                             />
                             <button
                                 type="submit"
-                                className="bg-sapphire text-gold py-2 px-6 rounded hover:bg-white hover:text-sapphire transition font-quicksand w-full"
+                                className="bg-sapphire text-gold py-2 px-6 rounded hover:bg-gradient-to-br from-yellow-200 to-gold hover:text-sapphire transition font-quicksand w-full"
                             >
                                 Subscribe
                             </button>
