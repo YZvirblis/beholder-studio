@@ -13,7 +13,7 @@ export default function Header() {
             <div className="container mx-auto flex justify-between items-center py-4 px-6">
                 {/* Logo */ }
                 <Link href="/" className="text-2xl font-cinzel tracking-wide flex flex-row align-middle text-center">
-                    <Image src={ "/images/logo.png" } alt="logo" width={ 40 } height={ 40 }></Image>
+                    <Image src={ "./images/logo.png" } alt="logo" width={ 40 } height={ 40 }></Image>
                     EverQuill
                 </Link>
 

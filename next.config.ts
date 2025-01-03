@@ -1,9 +1,10 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   images: {
-    unoptimized: true, // Disable built-in image optimization for Amplify
+    unoptimized: true, // Disable Next.js image optimization for Amplify
   },
+  assetPrefix: "/", // Ensure correct asset paths
+  trailingSlash: true, // Ensure proper URL handling
 };
 
-export default nextConfig;
+module.exports = nextConfig;
