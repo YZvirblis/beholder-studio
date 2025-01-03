@@ -2,6 +2,7 @@ import Image from "next/image";
 import CommunitySection from "./CommunitySection";
 import { FaDiceD20, FaScroll, FaUserFriends, FaMagic } from "react-icons/fa";
 import FadeInSection from "./FadeInSection";
+import { px } from "framer-motion";
 export default function AboutSection() {
     return (
         <section id="about" className="bg-sapphire text-gold py-16 border-t-4 border-gold shadow-lg">
@@ -136,6 +137,8 @@ export default function AboutSection() {
                                 <Image
                                     src="/images/yzprofile.jpg"
                                     alt="Yuriy Zhvirblis Profile Picture"
+                                    width="24"
+                                    height="24"
                                     className="rounded-full w-24 h-24 border-solid border-sapphire border-2 shadow-lg"
                                 />
                             </div>
