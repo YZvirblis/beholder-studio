@@ -133,7 +133,7 @@ export default function AboutSection() {
                             </p>
                             <div className="flex items-center justify-between text-center text-lg font-bold">
                                 <span className="m-3">- Yuriy Zhvirblis</span>
-                                <img
+                                <Image
                                     src="/images/yzprofile.jpg"
                                     alt="Yuriy Zhvirblis Profile Picture"
                                     className="rounded-full w-24 h-24 border-solid border-sapphire border-2 shadow-lg"
