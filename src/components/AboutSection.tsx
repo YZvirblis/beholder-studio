@@ -2,7 +2,6 @@ import Image from "next/image";
 import CommunitySection from "./CommunitySection";
 import { FaDiceD20, FaScroll, FaUserFriends, FaMagic } from "react-icons/fa";
 import FadeInSection from "./FadeInSection";
-import { px } from "framer-motion";
 export default function AboutSection() {
     return (
         <section id="about" className="bg-sapphire text-gold py-16 border-t-4 border-gold shadow-lg">
