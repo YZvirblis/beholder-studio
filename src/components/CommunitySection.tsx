@@ -1,5 +1,5 @@
 import { FaDiscord, FaCoffee, FaPatreon } from "react-icons/fa";
-import NewsletterForm from "./NewsletterForm";
+// import NewsletterForm from "./NewsletterForm";
 
 export default function CommunitySection() {
     return (
