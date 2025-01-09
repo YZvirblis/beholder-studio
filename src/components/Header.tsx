@@ -39,7 +39,6 @@ export default function Header() {
                     </Link> */}
                 </nav>
 
-                {/* Mobile Menu Button */ }
                 <button
                     className="md:hidden text-gold hover:text-white"
                     onClick={ () => setIsMenuOpen(!isMenuOpen) }
