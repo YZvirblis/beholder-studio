@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-bg": "url('./public/images/hero-bg')",
+        "hero-bg": "url('./public/Images/hero-bg')",
       },
       fontFamily: {
         cinzel: ["var(--font-cinzel)", "serif"], // For headings

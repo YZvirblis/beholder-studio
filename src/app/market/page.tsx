@@ -7,7 +7,7 @@ export default function MarketPage() {
             {/* Logo or Illustration */ }
             <div className="mb-8">
                 <Image
-                    src="/images/logo.png"
+                    src="/Images/logo.png"
                     alt="EverQuill Logo"
                     width={ 150 }
                     height={ 150 }

@@ -13,19 +13,19 @@ const featuredProducts: Product[] = [
         id: 1,
         title: "The Shadow Dagger of Ardeep",
         description: "A legendary weapon with a mysterious backstory.",
-        image: "/images/shadow-dagger.jpg", // Replace with actual image paths
+        image: "/Images/shadow-dagger.jpg", // Replace with actual image paths
     },
     {
         id: 2,
         title: "Enchanted Tome of Mystra",
         description: "A magical tome containing ancient spells.",
-        image: "/images/enchanted-tome.jpg", // Replace with actual image paths
+        image: "/Images/enchanted-tome.jpg", // Replace with actual image paths
     },
     {
         id: 3,
         title: "Cloak of Whispering Shadows",
         description: "A cloak that conceals the wearer in shadow.",
-        image: "/images/cloak-shadows.jpg", // Replace with actual image paths
+        image: "/Images/cloak-shadows.jpg", // Replace with actual image paths
     },
 ];
 
@@ -34,7 +34,7 @@ export default function FeaturedProductsSection() {
         <section
             className="bg-[#161e2e] text-gold py-12"
             style={ {
-                backgroundImage: "url('/images/seamless-background.jpg')",
+                backgroundImage: "url('/Images/seamless-background.jpg')",
                 backgroundSize: "cover",
                 backgroundRepeat: "repeat",
             } }

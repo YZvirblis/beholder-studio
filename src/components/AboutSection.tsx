@@ -35,7 +35,7 @@ export default function AboutSection() {
                     {/* Center Graphic */ }
                     {/* <div className="flex items-center justify-center w-1/2">
                         <img
-                        src="/images/beholder.png"
+                        src="/Images/beholder.png"
                         alt="Beholder Logo"
                         className="w-60 h-60 rounded-full shadow-lg border-4 border-gold"
                         />
@@ -134,7 +134,7 @@ export default function AboutSection() {
                             <div className="flex items-center justify-between text-center text-lg font-bold">
                                 <span className="m-3">- Yuriy Zhvirblis</span>
                                 <Image
-                                    src="/images/yzprofile.jpg"
+                                    src="/Images/yzprofile.jpg"
                                     alt="Yuriy Zhvirblis Profile Picture"
                                     width="24"
                                     height="24"
@@ -148,7 +148,7 @@ export default function AboutSection() {
                 {/* Centered Logo */ }
 
                 <div className="flex justify-center my-12">
-                    <Image src="/images/logo.png" alt="EverQuill Logo" width={ 150 } height={ 150 } />
+                    <Image src="/Images/logo.png" alt="EverQuill Logo" width={ 150 } height={ 150 } />
                 </div>
 
                 <FadeInSection>

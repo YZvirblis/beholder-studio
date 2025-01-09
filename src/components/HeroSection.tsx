@@ -17,7 +17,7 @@ export default function HeroSection() {
     };
 
     return (
-        <section className="relative bg-[url('/images/hero-bg.png')] bg-cover text-gold h-screen flex items-center justify-start border-b-4 border-gold shadow-lg">
+        <section className="relative bg-[url('/Images/hero-bg.png')] bg-cover text-gold h-screen flex items-center justify-start border-b-4 border-gold shadow-lg">
             {/* Background Overlay */ }
             <div className="absolute inset-0 bg-gradient-to-b from-sapphire to-gray-900 p-52"></div>
 
