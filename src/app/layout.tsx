@@ -51,6 +51,8 @@ export default function RootLayout({
         <link rel="icon" href="/Icons/favicon-192x192.png" sizes="192x192" />
         <link rel="apple-touch-icon" href="/Icons/favicon-192x192.png" />
         <link rel="manifest" href="/site.webmanifest" />
+        <link rel="icon" href="/favicon.ico" />
+
       </Head>
 
       {/* Google Analytics Script */ }
