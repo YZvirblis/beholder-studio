@@ -1,0 +1,16 @@
+{
+  "name": "EverQuill",
+  "short_name": "EverQuill",
+  "description": "The Pen of Creation, The Forge of Legends.",
+  "start_url": "/",
+  "background_color": "#161e2e",
+  "theme_color": "#161e2e",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/Icons/favicon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
+}

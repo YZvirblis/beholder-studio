@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://everquill.games
+
+# Sitemaps
+Sitemap: https://everquill.games/sitemap.xml
