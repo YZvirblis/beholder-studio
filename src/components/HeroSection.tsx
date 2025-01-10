@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Link from "next/link";
 
@@ -17,24 +17,24 @@ export default function HeroSection() {
     };
 
     return (
-        <section className="relative bg-[url('/Images/hero-bg.png')] bg-cover text-gold h-screen flex items-center justify-start border-b-4 border-gold shadow-lg">
+        <section className="relative bg-[url('/Images/hero-bg.png')] bg-cover bg-center text-gold h-screen flex items-center justify-center md:justify-start border-b-4 border-gold shadow-lg">
             {/* Background Overlay */ }
-            <div className="absolute inset-0 bg-gradient-to-b from-sapphire to-gray-900 p-52"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-sapphire to-gray-900"></div>
 
             {/* Content */ }
-            <div className="relative z-10 text-left max-w-3xl px-6 p-16 ml-24">
+            <div className="relative z-10 text-center md:text-left max-w-full px-4 sm:px-8 md:max-w-3xl lg:px-6 lg:p-16 lg:ml-24">
                 {/* Logo/Title */ }
-                <h1 className="text-5xl md:text-6xl font-cinzel font-bold mb-4">
-                    EverQuill
+                <h1 className="text-4xl sm:text-5xl md:text-6xl font-cinzel font-bold mb-4 leading-tight">
+                    EverQuill<span className="text-2xl align-top">&trade;</span>
                 </h1>
 
                 {/* Tagline */ }
-                <p className="text-lg md:text-xl font-quicksand mb-8">
+                <p className="text-base sm:text-lg md:text-xl font-quicksand mb-8 leading-relaxed">
                     The Pen of Creation, The Forge of Legends.
                 </p>
 
                 {/* Call-to-Action Buttons */ }
-                <div className="flex flex-col md:flex-row justify-start space-y-4 md:space-y-0 md:space-x-6">
+                <div className="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-6">
                     <Link
                         href="/market"
                         className="text-lg font-quicksand hover:text-white transition"

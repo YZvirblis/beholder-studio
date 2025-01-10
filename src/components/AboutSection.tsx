@@ -2,109 +2,70 @@ import Image from "next/image";
 import CommunitySection from "./CommunitySection";
 import { FaDiceD20, FaScroll, FaUserFriends, FaMagic } from "react-icons/fa";
 import FadeInSection from "./FadeInSection";
+
 export default function AboutSection() {
     return (
         <section id="about" className="bg-sapphire text-gold py-16 border-t-4 border-gold shadow-lg">
-
-            <div className="container mx-auto px-6">
+            <div className="container mx-auto px-4 md:px-6 lg:px-12">
                 {/* Section Title */ }
-                <h2 className="text-4xl font-cinzel text-center mb-12 underline">
-                    About EverQuill
+                <h2 className="text-3xl md:text-4xl font-cinzel text-center mb-12 underline">
+                    About EverQuill<span className="text-2xl align-top">&trade;</span>
                 </h2>
 
                 {/* General About Section */ }
-                <div className="flex flex-col lg:flex-row justify-between items-center gap-12  p-12 rounded-lg  mb-8">
-                    {/* About EverQuill */ }
+                <div className="flex flex-wrap lg:flex-nowrap justify-between items-center gap-8 p-6 rounded-lg mb-12">
                     <FadeInSection>
-
-                        <div className=" text-lg font-quicksand  p-8 rounded-lg text-gold w-full">
+                        <div className="text-base md:text-lg font-quicksand px-4 md:px-8 py-6 rounded-lg text-gold w-full">
                             <p className="mb-4">
-                                At <span className="font-semibold">EverQuill</span>, we believe in the power of stories to connect, inspire, and transform.
-                                Our platform is dedicated to creating a vibrant ecosystem for tabletop RPG enthusiasts,
-                                offering tools, resources, and modules to make every adventure unforgettable.
+                                At <span className="font-semibold">EverQuill<span className="text-sm align-top">&trade;</span></span>, we believe in the power of stories to connect, inspire, and transform. Our platform is dedicated to creating a vibrant ecosystem for tabletop RPG enthusiasts, offering tools, resources, and modules to make every adventure unforgettable.
                             </p>
                             <p>
-                                Whether you’re a solo adventurer or part of a group, EverQuill is here to empower you with
-                                everything you need to craft worlds, create characters, and embark on thrilling quests.
-                                With a focus on accessibility and creativity, our mission is to remove barriers and ensure
-                                that everyone can play, dream, and tell their own stories.
+                                Whether you’re a solo adventurer or part of a group, EverQuill is here to empower you with everything you need to craft worlds, create characters, and embark on thrilling quests. With a focus on accessibility and creativity, our mission is to remove barriers and ensure that everyone can play, dream, and tell their own stories.
                             </p>
                         </div>
                     </FadeInSection>
-
-                    {/* Center Graphic */ }
-                    {/* <div className="flex items-center justify-center w-1/2">
-                        <img
-                        src="/Images/beholder.png"
-                        alt="Beholder Logo"
-                        className="w-60 h-60 rounded-full shadow-lg border-4 border-gold"
-                        />
-                        </div> */}
-
-                    {/* Future Features */ }
-                    {/* <div className="max-w-lg text-lg font-quicksand  p-8 rounded-lg text-gold">
-                        <p className="mb-4">
-                        EverQuill is just beginning. Here’s what’s on the horizon:
-                        </p>
-                        <ul className="list-disc list-inside text-left space-y-2">
-                        <li>Interactive solo adventures with dynamic storytelling.</li>
-                        <li>Enhanced tools for real-time campaign management.</li>
-                        <li>Exclusive content packs from renowned creators.</li>
-                        <li>Advanced world-building and map creation features.</li>
-                        </ul>
-                        </div> */}
                 </div>
-
 
                 {/* Features Section */ }
                 <FadeInSection>
-
                     <div className="max-w-6xl mx-auto mb-16">
-                        {/* <h3 className="text-3xl font-cinzel text-center mb-10">Platform Features</h3> */ }
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                            {/* Feature 1 */ }
-                            <div className="flex flex-col items-center bg-gradient-to-t from-sapphire-light to-sapphire-dark p-6 rounded-lg shadow-md border border-gold cursor-default transition-transform transform hover:scale-105 hover:shadow-lg">
-                                <FaScroll className="text-5xl mb-4 text-gold" />
-                                <h4 className="text-l font-cinzel mb-2">Curated Modules</h4>
-                                <p className="text-sm text-center font-quicksand">
-                                    Access a growing library of expertly crafted modules for solo and group play.
-                                </p>
-                            </div>
-                            {/* Feature 2 */ }
-                            <div className="flex flex-col items-center bg-gradient-to-t from-sapphire-light to-sapphire-dark p-6 rounded-lg shadow-md border border-gold cursor-default transition-transform transform hover:scale-105 hover:shadow-lg">
-                                <FaUserFriends className="text-5xl mb-4 text-gold" />
-                                <h4 className="text-l font-cinzel mb-2">Inclusive Community</h4>
-                                <p className="text-sm text-center font-quicksand">
-                                    Join a welcoming community of players and creators sharing their passion for TTRPGs.
-                                </p>
-                            </div>
-                            {/* Feature 3 */ }
-                            <div className="flex flex-col items-center bg-gradient-to-t from-sapphire-light to-sapphire-dark p-6 rounded-lg shadow-md border border-gold cursor-default transition-transform transform hover:scale-105 hover:shadow-lg">
-                                <FaDiceD20 className="text-5xl mb-4 text-gold" />
-                                <h4 className="text-l font-cinzel mb-2">Dynamic Tools</h4>
-                                <p className="text-sm text-center font-quicksand">
-                                    Leverage tools for character creation, world-building, and adventure design.
-                                </p>
-                            </div>
-                            {/* Feature 4 */ }
-                            <div className="flex flex-col items-center bg-gradient-to-t from-sapphire-light to-sapphire-dark p-6 rounded-lg shadow-md border border-gold cursor-default transition-transform transform hover:scale-105 hover:shadow-lg">
-                                <FaMagic className="text-5xl mb-4 text-gold" />
-                                <h4 className="text-l font-cinzel mb-2">Future Innovation</h4>
-                                <p className="text-sm text-center font-quicksand">
-                                    Discover upcoming features that will redefine how you play and create.
-                                </p>
-                            </div>
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                            {/* Feature Cards */ }
+                            { [{
+                                Icon: FaScroll,
+                                title: "Curated Modules",
+                                description: "Access a growing library of expertly crafted modules for solo and group play."
+                            }, {
+                                Icon: FaUserFriends,
+                                title: "Inclusive Community",
+                                description: "Join a welcoming community of players and creators sharing their passion for TTRPGs."
+                            }, {
+                                Icon: FaDiceD20,
+                                title: "Dynamic Tools",
+                                description: "Leverage tools for character creation, world-building, and adventure design."
+                            }, {
+                                Icon: FaMagic,
+                                title: "Future Innovation",
+                                description: "Discover upcoming features that will redefine how you play and create."
+                            }].map(({ Icon, title, description }, idx) => (
+                                <div
+                                    key={ idx }
+                                    className="flex flex-col items-center bg-gradient-to-t from-sapphire-light to-sapphire-dark p-6 rounded-lg shadow-md border border-gold cursor-default transition-transform transform hover:scale-105 hover:shadow-lg"
+                                >
+                                    <Icon className="text-5xl mb-4 text-gold" />
+                                    <h4 className="text-l font-cinzel mb-2">{ title }</h4>
+                                    <p className="text-sm text-center font-quicksand">{ description }</p>
+                                </div>
+                            )) }
                         </div>
                     </div>
                 </FadeInSection>
 
-
                 {/* Story Section */ }
-                <FadeInSection>
-
-                    <div className="flex justify-center mb-16">
-                        <div className="space-y-6 text-lg font-quicksand text-left max-w-4xl bg-gradient-to-br from-yellow-200 to-gold p-8 rounded-lg shadow-md w-full text-sapphire">
-                            <h3 className="text-3xl font-cinzel mb-6">The Story</h3>
+                {/* <FadeInSection>
+                    <div className="flex flex-col items-center mb-16 px-4">
+                        <div className="space-y-6 text-base md:text-lg font-quicksand text-left max-w-4xl bg-gradient-to-br from-yellow-200 to-gold p-8 rounded-lg shadow-md w-full text-sapphire">
+                            <h3 className="text-2xl md:text-3xl font-cinzel mb-6">The Story</h3>
                             <p>
                                 From the moment I picked up my first video game as a child, I fell
                                 in love with the worlds that creativity could build. Over time, I discovered my passion
@@ -136,19 +97,18 @@ export default function AboutSection() {
                                 <Image
                                     src="/Images/yzprofile.jpg"
                                     alt="Yuriy Zhvirblis Profile Picture"
-                                    width="24"
-                                    height="24"
-                                    className="rounded-full w-24 h-24 border-solid border-sapphire border-2 shadow-lg"
+                                    width={ 96 }
+                                    height={ 96 }
+                                    className="rounded-full border-solid border-sapphire border-2 shadow-lg"
                                 />
                             </div>
                         </div>
                     </div>
-                </FadeInSection>
+                </FadeInSection> */}
 
                 {/* Centered Logo */ }
-
                 <div className="flex justify-center my-12">
-                    <Image src="/Images/logo.png" alt="EverQuill Logo" width={ 150 } height={ 150 } />
+                    <Image src="/Images/logo.png" alt="EverQuill Logo" width={ 120 } height={ 120 } />
                 </div>
 
                 <FadeInSection>
