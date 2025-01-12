@@ -1,5 +1,6 @@
-import { FaDiscord, FaCoffee, FaPatreon } from "react-icons/fa";
-import NewsletterForm from "./NewsletterForm";
+import { FaDiscord, FaPatreon } from "react-icons/fa";
+// import { FaDiscord, FaCoffee, FaPatreon } from "react-icons/fa";
+// import NewsletterForm from "./NewsletterForm";
 
 export default function CommunitySection() {
     return (
@@ -15,23 +16,23 @@ export default function CommunitySection() {
                         </p>
                         <div className="flex justify-center space-x-4 sm:space-x-6 text-2xl sm:text-3xl">
                             <a
-                                href="https://discord.com/invite/your-server"
+                                href="https://discord.gg/zH3CApnwsq"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="hover:text-sapphire hover:bg-gradient-to-br from-yellow-200 to-gold rounded-full p-2 sm:p-3 shadow-xl bg-sapphire transition"
                             >
                                 <FaDiscord />
                             </a>
-                            <a
-                                href="https://www.buymeacoffee.com/yourprofile"
+                            {/* <a
+                                href="https://www.buymeacoffee.com/everquillgames"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="hover:text-sapphire hover:bg-gradient-to-br from-yellow-200 to-gold rounded-full p-2 sm:p-3 shadow-xl bg-sapphire transition"
                             >
                                 <FaCoffee />
-                            </a>
+                            </a> */}
                             <a
-                                href="https://www.patreon.com/yourprofile"
+                                href="https://www.patreon.com/EverQuillGames"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="hover:text-sapphire hover:bg-gradient-to-br from-yellow-200 to-gold rounded-full p-2 sm:p-3 shadow-xl bg-sapphire transition"
@@ -42,9 +43,9 @@ export default function CommunitySection() {
                     </div>
 
                     {/* Newsletter Subscription */ }
-                    <div className="w-full lg:w-1/2">
+                    {/* <div className="w-full lg:w-1/2">
                         <NewsletterForm />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>
