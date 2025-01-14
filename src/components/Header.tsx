@@ -31,12 +31,12 @@ export default function Header() {
                     >
                         Market
                     </Link>
-                    <Link
+                    {/* <Link
                         href="/about"
                         className="text-lg font-quicksand hover:text-white transition"
                     >
                         About
-                    </Link>
+                    </Link> */}
                 </nav>
 
                 {/* Hamburger Icon */ }
@@ -79,13 +79,13 @@ export default function Header() {
                     >
                         Market
                     </Link>
-                    <Link
+                    {/* <Link
                         href="/about"
                         className="text-lg font-quicksand hover:text-white transition border-b-2 border-solid border-gold w-full"
                         onClick={ () => setIsMenuOpen(false) }
                     >
                         About
-                    </Link>
+                    </Link> */}
                 </nav>
             </div>
         </header>
